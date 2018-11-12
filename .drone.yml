@@ -6,3 +6,4 @@ steps:
   image: microsoft/dotnet:2.1-sdk
   commands:
   - dotnet build
+  - dotnet test .\DroneDemoTest\
